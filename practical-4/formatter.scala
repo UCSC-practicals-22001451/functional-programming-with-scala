@@ -9,10 +9,10 @@ object NameFormat {
   def main(args: Array[String]): Unit = {
     val names = List("Benny", "Niroshan", "Saman", "Kumara")
     val formats = List(
-      toUpper, // Corrected: Removed trailing _
+      toUpper,
       (name: String) =>
         name.substring(0, 1).toUpperCase + name.substring(1).toLowerCase,
-      toLower, // Corrected: Removed trailing _
+      toLower,
       (name: String) =>
         name.substring(0, name.length - 1).toLowerCase + name
           .takeRight(1)
