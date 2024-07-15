@@ -1,9 +1,22 @@
-# Functional Programming with Scala - UCSC BSc. Computer Science 2nd Year 1st Semester
+# Functional Programming with Scala - UCSC
 
-This repository contains all the practical code I've done for the Functional Programming module using Scala. The module is part of the BSc. in Computer Science Degree at the University of Colombo School of Computing (UCSC), taken in the 2nd year, 1st semester.
+This repository contains practical Scala code for the Functional Programming module, part of the BSc. Computer Science at UCSC, taken in the 2nd year, 1st semester. It's organized weekly, with Scala files in respective directories.
 
-## Structure
+## Compilation and Execution
+A PowerShell script, run_project.ps1, automates the compilation of Scala files listed in files_to_compile.txt. This setup allows using a single App object with a main method to run different Scala files based on command-line input, overcoming Scala's limitation with multiple main functions. The process:
 
-The repository is structured by week, with each week's practical work in a separate directory. 
+- Reads Scala file paths from files_to_compile.txt.
+- Compiles them into an out directory.
+- Checks for successful compilation.
+- On success, instructs on running the App with a filename argument.
+- This approach enhances flexibility, maintainability, and scalability, streamlining the compilation and execution process.
 
-Each directory contains the Scala files for that week.
+
+## Script Details
+- **Read Scala File Paths**: Reads paths from `files_to_compile.txt` into an array.
+- **Compile Scala Files**: Utilizes `scalac` with `-d out` option to compile files into the `out` directory.
+- **Check Compilation Success**: Outputs "Compilation successful" along with instructions if compilation succeeds; otherwise, prints "Compilation failed".
+- **Running the Script**:
+  - Open PowerShell in the project folder.
+  - Set execution policy with `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` if necessary.
+  - Execute the script with `.\run_project.ps1`.
