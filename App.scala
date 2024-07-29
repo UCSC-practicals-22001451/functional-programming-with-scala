@@ -6,6 +6,8 @@ object App {
         case "p5e1" => practical_5.inventory_management.run()
         case "p5e2" => practical_5.library_management.run()
         case "p5e3" => practical_5.print_fib.run()
+        case "p6e1" => practical_6.warehouse_management.run()
+        case "p6e2" => practical_6.student_management.run()
         case _      => println("Exercise not found.")
       }
     } else {
