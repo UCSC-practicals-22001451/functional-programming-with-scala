@@ -60,7 +60,7 @@ object student_management {
     val (name, marks, totalMarks, percentage, grade) = record
     println(s"Student Name: $name")
     println(s"Marks: $marks / $totalMarks")
-    println(s"Percentage: $percentage%")
+    println(f"Percentage: $percentage%.2f%%")
     println(s"Grade: $grade")
   }
 

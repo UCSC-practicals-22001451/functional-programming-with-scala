@@ -6,7 +6,7 @@ case class Product(name: String, quantity: Int, price: Double)
 object warehouse_management {
   def run(): Unit = {
     var choice = ""
-    while (choice != "6") {
+    while (choice != "7") {
       println("\nInventory Management System")
       println("1. List all products")
       println("2. Calculate total value")
@@ -68,6 +68,7 @@ object warehouse_management {
         case None => product
       })
     }
+    listProducts()
     println("Inventories merged successfully.")
   }
   def calculateTotalValue(): Unit = {
