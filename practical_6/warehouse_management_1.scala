@@ -13,7 +13,8 @@ object warehouse_management {
       println("3. Check if inventory is empty")
       println("4. Add new product")
       println("5. Find product by ID")
-      println("6. Exit")
+      println("6. Merge inventories")
+      println("7. Exit")
       print("Enter your choice: ")
 
       choice = readLine()
@@ -24,7 +25,8 @@ object warehouse_management {
         case "3" => checkIfEmpty()
         case "4" => addNewProduct()
         case "5" => findProduct()
-        case "6" => println("Exiting...")
+        case "6" => merge()
+        case "7" => println("Exiting...")
         case _   => println("Invalid choice. Please try again.")
       }
     }
@@ -34,6 +36,11 @@ object warehouse_management {
     102 -> Product("Banana", 150, 0.3),
     103 -> Product("Orange", 75, 0.6)
   )
+  var inventory_2 = Map(
+    104 -> Product("Grapes", 200, 1.4),
+    102 -> Product("Banana", 50, 1.4),
+    110 -> Product("Milk", 10, 0.3)
+  )
 
   def listProducts(): Unit = {
     inventory.foreach { case (id, product) =>
@@ -42,7 +49,27 @@ object warehouse_management {
       )
     }
   }
-
+  def merge(): Unit = {
+    inventory = inventory ++ inventory_2.map { case (id, product) =>
+      id -> (inventory.get(id) match {
+        case Some(existingProduct: Product) =>
+          if (product.price > existingProduct.price)
+            Product(
+              product.name,
+              product.quantity + existingProduct.quantity,
+              product.price
+            )
+          else
+            Product(
+              existingProduct.name,
+              product.quantity + existingProduct.quantity,
+              existingProduct.price
+            )
+        case None => product
+      })
+    }
+    println("Inventories merged successfully.")
+  }
   def calculateTotalValue(): Unit = {
     val totalValue = inventory.values.map(p => p.quantity * p.price).sum
     println(f"Total inventory value: $$$totalValue%.2f")
