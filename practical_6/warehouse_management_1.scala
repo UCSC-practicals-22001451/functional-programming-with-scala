@@ -38,7 +38,7 @@ object warehouse_management {
   def listProducts(): Unit = {
     inventory.foreach { case (id, product) =>
       println(
-        f"ID: $id, Name: ${product.name}, Quantity: ${product.quantity}, Price: $${product price}"
+        f"ID: $id, Name: ${product.name}, Quantity: ${product.quantity}, Price: ${product.price}"
       )
     }
   }
