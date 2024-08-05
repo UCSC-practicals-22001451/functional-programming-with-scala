@@ -1,2 +1,9 @@
-.idea
-out
+.idea/
+out/
+*scode*
+*scalafmt*
+.metals/*
+.scala-build/*
+.metals/metals.lock.db
+.metals/metals.log
+.metals/metals.mv.db

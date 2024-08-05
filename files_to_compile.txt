@@ -1,3 +1,4 @@
-practical_6/warehouse_management_1.scala
-practical_6/student_management_2.scala
+practical_7/filter_even_1.scala
+practical_7/calc_square_2.scala
+practical_7/filter_prime_3.scala
 App.scala

@@ -34,7 +34,8 @@ object warehouse_management {
   var inventory = Map(
     101 -> Product("Apple", 100, 0.5),
     102 -> Product("Banana", 150, 0.3),
-    103 -> Product("Orange", 75, 0.6)
+    103 -> Product("Orange", 75, 0.6),
+    109 -> Product("Milk", 75, 0.6)
   )
   var inventory_2 = Map(
     104 -> Product("Grapes", 200, 1.4),

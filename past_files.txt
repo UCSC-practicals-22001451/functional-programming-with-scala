@@ -1,3 +1,5 @@
 practical_5/inventory_management_1.scala
 practical_5/library_management_2.scala
 practical_5/print_fib_3.scala
+practical_6/warehouse_management_1.scala
+practical_6/student_management_2.scala
