@@ -5672,3 +5672,545 @@ WARNING: Unmatched cancel notification for request id 887
 2024.08.06 02:40:22 INFO  running doctor check
 2024.08.06 02:40:22 INFO  java targets: functional-programming-with-scala_52168fea17-test, functional-programming-with-scala_52168fea17
 2024.08.06 02:40:24 INFO  time: indexed workspace in 2.06s
+Aug 06, 2024 2:49:52 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\filter_prime.scala
+java.nio.file.NoSuchFileException: D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\filter_prime.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set3.foreach(Set.scala:261)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:129)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:129)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Aug 06, 2024 2:49:52 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\filter_prime.scala
+java.nio.file.NoSuchFileException: D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\filter_prime.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set3.foreach(Set.scala:261)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:129)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:129)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Aug 06, 2024 2:49:52 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\practical_7\filter_prime.scala
+java.nio.file.NoSuchFileException: D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\practical_7\filter_prime.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set3.foreach(Set.scala:261)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:129)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:129)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Aug 06, 2024 2:49:52 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\practical_7\filter_prime.scala
+java.nio.file.NoSuchFileException: D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\practical_7\filter_prime.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set3.foreach(Set.scala:261)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:129)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:129)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Aug 06, 2024 2:49:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1035
+Aug 06, 2024 2:52:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://55bb938f-c015-4696-8645-67bd2abb8330/response_40/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22d%3A%5C%5CUni%5C%5C2y%20-%201st%20sem%5C%5CCode%5C%5Cfunctional-programming-with-scala%5C%5Cpractical_7%5C%5Cfilter_prime_3.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fd%253A%2FUni%2F2y%2520-%25201st%2520sem%2FCode%2Ffunctional-programming-with-scala%2Fpractical_7%2Ffilter_prime_3.scala%22%2C%22path%22%3A%22%2Fd%3A%2FUni%2F2y%20-%201st%20sem%2FCode%2Ffunctional-programming-with-scala%2Fpractical_7%2Ffilter_prime_3.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A4%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A11%2C%22endColumn%22%3A40%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:773)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:770)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:698)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Aug 06, 2024 2:52:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://55bb938f-c015-4696-8645-67bd2abb8330/response_40/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22d%3A%5C%5CUni%5C%5C2y%20-%201st%20sem%5C%5CCode%5C%5Cfunctional-programming-with-scala%5C%5Cpractical_7%5C%5Cfilter_prime_3.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fd%253A%2FUni%2F2y%2520-%25201st%2520sem%2FCode%2Ffunctional-programming-with-scala%2Fpractical_7%2Ffilter_prime_3.scala%22%2C%22path%22%3A%22%2Fd%3A%2FUni%2F2y%20-%201st%20sem%2FCode%2Ffunctional-programming-with-scala%2Fpractical_7%2Ffilter_prime_3.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A4%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A11%2C%22endColumn%22%3A40%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:773)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:770)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:698)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.08.06 02:52:53 INFO  compiling functional-programming-with-scala_52168fea17 (1 scala source)
+2024.08.06 02:52:53 INFO  time: compiled functional-programming-with-scala_52168fea17 in 0.51s
+2024.08.06 02:56:18 INFO  Report absolute-path: ### java.lang.IllegalArgumentException: Illegal character in opaque part at index 23: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Int.scala
+
+Uri: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Int.scala
+
+
+#### Error stacktrace:
+
+```
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:773)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:770)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:756)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceForOpt(WorkspaceLspService.scala:308)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:317)
+	scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:783)
+	scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+```
+
+Aug 06, 2024 2:56:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/HP%20840%20G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar%21/scala/Int.scala",
+      "languageId": "scala",
+      "version": 1,
+      "text": "/*\n * Scala (https://www.scala-lang.org)\n *\n * Copyright EPFL and Lightbend, Inc.\n *\n * Licensed under Apache License 2.0\n * (http://www.apache.org/licenses/LICENSE-2.0).\n *\n * See the NOTICE file distributed with this work for\n * additional information regarding copyright ownership.\n */\n\n// DO NOT EDIT, CHANGES WILL BE LOST\n// This auto-generated code can be modified in \"project/GenerateAnyVals.scala\".\n// Afterwards, running \"sbt generateSources\" regenerates this source file.\n\npackage scala\n\n/** `Int`, a 32-bit signed integer (equivalent to Java\u0027s `int` primitive type) is a\n *  subtype of [[scala.AnyVal]]. Instances of `Int` are not\n *  represented by an object in the underlying runtime system.\n *\n *  There is an implicit conversion from [[scala.Int]] \u003d\u003e [[scala.runtime.RichInt]]\n *  which provides useful non-primitive operations.\n */\nfinal abstract class Int private extends AnyVal {\n  def toByte: Byte\n  def toShort: Short\n  def toChar: Char\n  def toInt: Int\n  def toLong: Long\n  def toFloat: Float\n  def toDouble: Double\n\n  /**\n * Returns the bitwise negation of this value.\n * @example {{{\n * ~5 \u003d\u003d -6\n * // in binary: ~00000101 \u003d\u003d\n * //             11111010\n * }}}\n */\n  def unary_~ : Int\n  /** Returns this value, unmodified. */\n  def unary_+ : Int\n  /** Returns the negation of this value. */\n  def unary_- : Int\n\n  @deprecated(\"Adding a number and a String is deprecated. Use the string interpolation `s\\\"$num$str\\\"`\", \"2.13.0\")\n  def +(x: String): String\n\n  /**\n  * Returns this value bit-shifted left by the specified number of bits,\n  *         filling in the new right bits with zeroes.\n  * @example {{{ 6 \u003c\u003c 3 \u003d\u003d 48 // in binary: 0110 \u003c\u003c 3 \u003d\u003d 0110000 }}}\n  */\n  def \u003c\u003c(x: Int): Int\n  /**\n  * Returns this value bit-shifted left by the specified number of bits,\n  *         filling in the new right bits with zeroes.\n  * @example {{{ 6 \u003c\u003c 3 \u003d\u003d 48 // in binary: 0110 \u003c\u003c 3 \u003d\u003d 0110000 }}}\n  */\n  @deprecated(\"shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).\\nCall `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.\", \"2.12.7\")\n  def \u003c\u003c(x: Long): Int\n  /**\n  * Returns this value bit-shifted right by the specified number of bits,\n  *         filling the new left bits with zeroes.\n  * @example {{{ 21 \u003e\u003e\u003e 3 \u003d\u003d 2 // in binary: 010101 \u003e\u003e\u003e 3 \u003d\u003d 010 }}}\n  * @example {{{\n  * -21 \u003e\u003e\u003e 3 \u003d\u003d 536870909\n  * // in binary: 11111111 11111111 11111111 11101011 \u003e\u003e\u003e 3 \u003d\u003d\n  * //            00011111 11111111 11111111 11111101\n  * }}}\n  */\n  def \u003e\u003e\u003e(x: Int): Int\n  /**\n  * Returns this value bit-shifted right by the specified number of bits,\n  *         filling the new left bits with zeroes.\n  * @example {{{ 21 \u003e\u003e\u003e 3 \u003d\u003d 2 // in binary: 010101 \u003e\u003e\u003e 3 \u003d\u003d 010 }}}\n  * @example {{{\n  * -21 \u003e\u003e\u003e 3 \u003d\u003d 536870909\n  * // in binary: 11111111 11111111 11111111 11101011 \u003e\u003e\u003e 3 \u003d\u003d\n  * //            00011111 11111111 11111111 11111101\n  * }}}\n  */\n  @deprecated(\"shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).\\nCall `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.\", \"2.12.7\")\n  def \u003e\u003e\u003e(x: Long): Int\n  /**\n  * Returns this value bit-shifted right by the specified number of bits,\n  *         filling in the left bits with the same value as the left-most bit of this.\n  *         The effect of this is to retain the sign of the value.\n  * @example {{{\n  * -21 \u003e\u003e 3 \u003d\u003d -3\n  * // in binary: 11111111 11111111 11111111 11101011 \u003e\u003e 3 \u003d\u003d\n  * //            11111111 11111111 11111111 11111101\n  * }}}\n  */\n  def \u003e\u003e(x: Int): Int\n  /**\n  * Returns this value bit-shifted right by the specified number of bits,\n  *         filling in the left bits with the same value as the left-most bit of this.\n  *         The effect of this is to retain the sign of the value.\n  * @example {{{\n  * -21 \u003e\u003e 3 \u003d\u003d -3\n  * // in binary: 11111111 11111111 11111111 11101011 \u003e\u003e 3 \u003d\u003d\n  * //            11111111 11111111 11111111 11111101\n  * }}}\n  */\n  @deprecated(\"shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).\\nCall `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.\", \"2.12.7\")\n  def \u003e\u003e(x: Long): Int\n\n  /** Returns `true` if this value is equal to x, `false` otherwise. */\n  def \u003d\u003d(x: Byte): Boolean\n  /** Returns `true` if this value is equal to x, `false` otherwise. */\n  def \u003d\u003d(x: Short): Boolean\n  /** Returns `true` if this value is equal to x, `false` otherwise. */\n  def \u003d\u003d(x: Char): Boolean\n  /** Returns `true` if this value is equal to x, `false` otherwise. */\n  def \u003d\u003d(x: Int): Boolean\n  /** Returns `true` if this value is equal to x, `false` otherwise. */\n  def \u003d\u003d(x: Long): Boolean\n  /** Returns `true` if this value is equal to x, `false` otherwise. */\n  def \u003d\u003d(x: Float): Boolean\n  /** Returns `true` if this value is equal to x, `false` otherwise. */\n  def \u003d\u003d(x: Double): Boolean\n\n  /** Returns `true` if this value is not equal to x, `false` otherwise. */\n  def !\u003d(x: Byte): Boolean\n  /** Returns `true` if this value is not equal to x, `false` otherwise. */\n  def !\u003d(x: Short): Boolean\n  /** Returns `true` if this value is not equal to x, `false` otherwise. */\n  def !\u003d(x: Char): Boolean\n  /** Returns `true` if this value is not equal to x, `false` otherwise. */\n  def !\u003d(x: Int): Boolean\n  /** Returns `true` if this value is not equal to x, `false` otherwise. */\n  def !\u003d(x: Long): Boolean\n  /** Returns `true` if this value is not equal to x, `false` otherwise. */\n  def !\u003d(x: Float): Boolean\n  /** Returns `true` if this value is not equal to x, `false` otherwise. */\n  def !\u003d(x: Double): Boolean\n\n  /** Returns `true` if this value is less than x, `false` otherwise. */\n  def \u003c(x: Byte): Boolean\n  /** Returns `true` if this value is less than x, `false` otherwise. */\n  def \u003c(x: Short): Boolean\n  /** Returns `true` if this value is less than x, `false` otherwise. */\n  def \u003c(x: Char): Boolean\n  /** Returns `true` if this value is less than x, `false` otherwise. */\n  def \u003c(x: Int): Boolean\n  /** Returns `true` if this value is less than x, `false` otherwise. */\n  def \u003c(x: Long): Boolean\n  /** Returns `true` if this value is less than x, `false` otherwise. */\n  def \u003c(x: Float): Boolean\n  /** Returns `true` if this value is less than x, `false` otherwise. */\n  def \u003c(x: Double): Boolean\n\n  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */\n  def \u003c\u003d(x: Byte): Boolean\n  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */\n  def \u003c\u003d(x: Short): Boolean\n  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */\n  def \u003c\u003d(x: Char): Boolean\n  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */\n  def \u003c\u003d(x: Int): Boolean\n  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */\n  def \u003c\u003d(x: Long): Boolean\n  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */\n  def \u003c\u003d(x: Float): Boolean\n  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */\n  def \u003c\u003d(x: Double): Boolean\n\n  /** Returns `true` if this value is greater than x, `false` otherwise. */\n  def \u003e(x: Byte): Boolean\n  /** Returns `true` if this value is greater than x, `false` otherwise. */\n  def \u003e(x: Short): Boolean\n  /** Returns `true` if this value is greater than x, `false` otherwise. */\n  def \u003e(x: Char): Boolean\n  /** Returns `true` if this value is greater than x, `false` otherwise. */\n  def \u003e(x: Int): Boolean\n  /** Returns `true` if this value is greater than x, `false` otherwise. */\n  def \u003e(x: Long): Boolean\n  /** Returns `true` if this value is greater than x, `false` otherwise. */\n  def \u003e(x: Float): Boolean\n  /** Returns `true` if this value is greater than x, `false` otherwise. */\n  def \u003e(x: Double): Boolean\n\n  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */\n  def \u003e\u003d(x: Byte): Boolean\n  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */\n  def \u003e\u003d(x: Short): Boolean\n  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */\n  def \u003e\u003d(x: Char): Boolean\n  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */\n  def \u003e\u003d(x: Int): Boolean\n  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */\n  def \u003e\u003d(x: Long): Boolean\n  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */\n  def \u003e\u003d(x: Float): Boolean\n  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */\n  def \u003e\u003d(x: Double): Boolean\n\n  /**\n  * Returns the bitwise OR of this value and `x`.\n  * @example {{{\n  * (0xf0 | 0xaa) \u003d\u003d 0xfa\n  * // in binary:   11110000\n  * //            | 10101010\n  * //              --------\n  * //              11111010\n  * }}}\n  */\n  def |(x: Byte): Int\n  /**\n  * Returns the bitwise OR of this value and `x`.\n  * @example {{{\n  * (0xf0 | 0xaa) \u003d\u003d 0xfa\n  * // in binary:   11110000\n  * //            | 10101010\n  * //              --------\n  * //              11111010\n  * }}}\n  */\n  def |(x: Short): Int\n  /**\n  * Returns the bitwise OR of this value and `x`.\n  * @example {{{\n  * (0xf0 | 0xaa) \u003d\u003d 0xfa\n  * // in binary:   11110000\n  * //            | 10101010\n  * //              --------\n  * //              11111010\n  * }}}\n  */\n  def |(x: Char): Int\n  /**\n  * Returns the bitwise OR of this value and `x`.\n  * @example {{{\n  * (0xf0 | 0xaa) \u003d\u003d 0xfa\n  * // in binary:   11110000\n  * //            | 10101010\n  * //              --------\n  * //              11111010\n  * }}}\n  */\n  def |(x: Int): Int\n  /**\n  * Returns the bitwise OR of this value and `x`.\n  * @example {{{\n  * (0xf0 | 0xaa) \u003d\u003d 0xfa\n  * // in binary:   11110000\n  * //            | 10101010\n  * //              --------\n  * //              11111010\n  * }}}\n  */\n  def |(x: Long): Long\n\n  /**\n  * Returns the bitwise AND of this value and `x`.\n  * @example {{{\n  * (0xf0 \u0026 0xaa) \u003d\u003d 0xa0\n  * // in binary:   11110000\n  * //            \u0026 10101010\n  * //              --------\n  * //              10100000\n  * }}}\n  */\n  def \u0026(x: Byte): Int\n  /**\n  * Returns the bitwise AND of this value and `x`.\n  * @example {{{\n  * (0xf0 \u0026 0xaa) \u003d\u003d 0xa0\n  * // in binary:   11110000\n  * //            \u0026 10101010\n  * //              --------\n  * //              10100000\n  * }}}\n  */\n  def \u0026(x: Short): Int\n  /**\n  * Returns the bitwise AND of this value and `x`.\n  * @example {{{\n  * (0xf0 \u0026 0xaa) \u003d\u003d 0xa0\n  * // in binary:   11110000\n  * //            \u0026 10101010\n  * //              --------\n  * //              10100000\n  * }}}\n  */\n  def \u0026(x: Char): Int\n  /**\n  * Returns the bitwise AND of this value and `x`.\n  * @example {{{\n  * (0xf0 \u0026 0xaa) \u003d\u003d 0xa0\n  * // in binary:   11110000\n  * //            \u0026 10101010\n  * //              --------\n  * //              10100000\n  * }}}\n  */\n  def \u0026(x: Int): Int\n  /**\n  * Returns the bitwise AND of this value and `x`.\n  * @example {{{\n  * (0xf0 \u0026 0xaa) \u003d\u003d 0xa0\n  * // in binary:   11110000\n  * //            \u0026 10101010\n  * //              --------\n  * //              10100000\n  * }}}\n  */\n  def \u0026(x: Long): Long\n\n  /**\n  * Returns the bitwise XOR of this value and `x`.\n  * @example {{{\n  * (0xf0 ^ 0xaa) \u003d\u003d 0x5a\n  * // in binary:   11110000\n  * //            ^ 10101010\n  * //              --------\n  * //              01011010\n  * }}}\n  */\n  def ^(x: Byte): Int\n  /**\n  * Returns the bitwise XOR of this value and `x`.\n  * @example {{{\n  * (0xf0 ^ 0xaa) \u003d\u003d 0x5a\n  * // in binary:   11110000\n  * //            ^ 10101010\n  * //              --------\n  * //              01011010\n  * }}}\n  */\n  def ^(x: Short): Int\n  /**\n  * Returns the bitwise XOR of this value and `x`.\n  * @example {{{\n  * (0xf0 ^ 0xaa) \u003d\u003d 0x5a\n  * // in binary:   11110000\n  * //            ^ 10101010\n  * //              --------\n  * //              01011010\n  * }}}\n  */\n  def ^(x: Char): Int\n  /**\n  * Returns the bitwise XOR of this value and `x`.\n  * @example {{{\n  * (0xf0 ^ 0xaa) \u003d\u003d 0x5a\n  * // in binary:   11110000\n  * //            ^ 10101010\n  * //              --------\n  * //              01011010\n  * }}}\n  */\n  def ^(x: Int): Int\n  /**\n  * Returns the bitwise XOR of this value and `x`.\n  * @example {{{\n  * (0xf0 ^ 0xaa) \u003d\u003d 0x5a\n  * // in binary:   11110000\n  * //            ^ 10101010\n  * //              --------\n  * //              01011010\n  * }}}\n  */\n  def ^(x: Long): Long\n\n  /** Returns the sum of this value and `x`. */\n  def +(x: Byte): Int\n  /** Returns the sum of this value and `x`. */\n  def +(x: Short): Int\n  /** Returns the sum of this value and `x`. */\n  def +(x: Char): Int\n  /** Returns the sum of this value and `x`. */\n  def +(x: Int): Int\n  /** Returns the sum of this value and `x`. */\n  def +(x: Long): Long\n  /** Returns the sum of this value and `x`. */\n  def +(x: Float): Float\n  /** Returns the sum of this value and `x`. */\n  def +(x: Double): Double\n\n  /** Returns the difference of this value and `x`. */\n  def -(x: Byte): Int\n  /** Returns the difference of this value and `x`. */\n  def -(x: Short): Int\n  /** Returns the difference of this value and `x`. */\n  def -(x: Char): Int\n  /** Returns the difference of this value and `x`. */\n  def -(x: Int): Int\n  /** Returns the difference of this value and `x`. */\n  def -(x: Long): Long\n  /** Returns the difference of this value and `x`. */\n  def -(x: Float): Float\n  /** Returns the difference of this value and `x`. */\n  def -(x: Double): Double\n\n  /** Returns the product of this value and `x`. */\n  def *(x: Byte): Int\n  /** Returns the product of this value and `x`. */\n  def *(x: Short): Int\n  /** Returns the product of this value and `x`. */\n  def *(x: Char): Int\n  /** Returns the product of this value and `x`. */\n  def *(x: Int): Int\n  /** Returns the product of this value and `x`. */\n  def *(x: Long): Long\n  /** Returns the product of this value and `x`. */\n  def *(x: Float): Float\n  /** Returns the product of this value and `x`. */\n  def *(x: Double): Double\n\n  /** Returns the quotient of this value and `x`. */\n  def /(x: Byte): Int\n  /** Returns the quotient of this value and `x`. */\n  def /(x: Short): Int\n  /** Returns the quotient of this value and `x`. */\n  def /(x: Char): Int\n  /** Returns the quotient of this value and `x`. */\n  def /(x: Int): Int\n  /** Returns the quotient of this value and `x`. */\n  def /(x: Long): Long\n  /** Returns the quotient of this value and `x`. */\n  def /(x: Float): Float\n  /** Returns the quotient of this value and `x`. */\n  def /(x: Double): Double\n\n  /** Returns the remainder of the division of this value by `x`. */\n  def %(x: Byte): Int\n  /** Returns the remainder of the division of this value by `x`. */\n  def %(x: Short): Int\n  /** Returns the remainder of the division of this value by `x`. */\n  def %(x: Char): Int\n  /** Returns the remainder of the division of this value by `x`. */\n  def %(x: Int): Int\n  /** Returns the remainder of the division of this value by `x`. */\n  def %(x: Long): Long\n  /** Returns the remainder of the division of this value by `x`. */\n  def %(x: Float): Float\n  /** Returns the remainder of the division of this value by `x`. */\n  def %(x: Double): Double\n\n  // Provide a more specific return type for Scaladoc\n  override def getClass(): Class[Int] \u003d ???\n}\n\nobject Int extends AnyValCompanion {\n  /** The smallest value representable as an Int. */\n  final val MinValue \u003d java.lang.Integer.MIN_VALUE\n\n  /** The largest value representable as an Int. */\n  final val MaxValue \u003d java.lang.Integer.MAX_VALUE\n\n  /** Transform a value type into a boxed reference type.\n   *\n   *  Runtime implementation determined by `scala.runtime.BoxesRunTime.boxToInteger`. See [[https://github.com/scala/scala src/library/scala/runtime/BoxesRunTime.java]].\n   *\n   *  @param  x   the Int to be boxed\n   *  @return     a java.lang.Integer offering `x` as its underlying value.\n   */\n  def box(x: Int): java.lang.Integer \u003d ???\n\n  /** Transform a boxed type into a value type.  Note that this\n   *  method is not typesafe: it accepts any Object, but will throw\n   *  an exception if the argument is not a java.lang.Integer.\n   *\n   *  Runtime implementation determined by `scala.runtime.BoxesRunTime.unboxToInt`. See [[https://github.com/scala/scala src/library/scala/runtime/BoxesRunTime.java]].\n   *\n   *  @param  x   the java.lang.Integer to be unboxed.\n   *  @throws     ClassCastException  if the argument is not a java.lang.Integer\n   *  @return     the Int resulting from calling intValue() on `x`\n   */\n  def unbox(x: java.lang.Object): Int \u003d ???\n\n  /** The String representation of the scala.Int companion object. */\n  override def toString \u003d \"object scala.Int\"\n  /** Language mandated coercions from Int to \"wider\" types. */\n  import scala.language.implicitConversions\n  @deprecated(\"Implicit conversion from Int to Float is dangerous because it loses precision. Write `.toFloat` instead.\", \"2.13.1\")\n  implicit def int2float(x: Int): Float \u003d x.toFloat\n  implicit def int2long(x: Int): Long \u003d x.toLong\n  implicit def int2double(x: Int): Double \u003d x.toDouble\n}\n\n"
+    }
+  }
+}
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 23: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Int.scala
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:152)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:773)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:770)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:391)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:39)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 23: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Int.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parse(URI.java:3181)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 23 more
+
+Aug 06, 2024 2:56:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/HP%20840%20G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar%21/scala/Int.scala"
+    }
+  }
+}
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 23: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Int.scala
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:152)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:773)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:770)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:410)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 23: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Int.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parse(URI.java:3181)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 23 more
+
+Aug 06, 2024 3:02:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1153
+2024.08.06 03:02:40 WARN  Could not find semantic tokens for: file:///D:/Uni/2y%20-%201st%20sem/Code/functional-programming-with-scala/App.scala
+2024.08.06 03:03:03 WARN  Could not find semantic tokens for: file:///D:/Uni/2y%20-%201st%20sem/Code/functional-programming-with-scala/App.scala
+2024.08.06 03:03:06 INFO  Report absolute-path: ### java.lang.IllegalArgumentException: Illegal character in opaque part at index 23: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Unit.scala
+
+Uri: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Unit.scala
+
+
+#### Error stacktrace:
+
+```
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:773)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:770)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:756)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceForOpt(WorkspaceLspService.scala:308)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:317)
+	scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:783)
+	scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+```
+
+Aug 06, 2024 3:03:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/HP%20840%20G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar%21/scala/Unit.scala",
+      "languageId": "scala",
+      "version": 1,
+      "text": "/*\n * Scala (https://www.scala-lang.org)\n *\n * Copyright EPFL and Lightbend, Inc.\n *\n * Licensed under Apache License 2.0\n * (http://www.apache.org/licenses/LICENSE-2.0).\n *\n * See the NOTICE file distributed with this work for\n * additional information regarding copyright ownership.\n */\n\n// DO NOT EDIT, CHANGES WILL BE LOST\n// This auto-generated code can be modified in \"project/GenerateAnyVals.scala\".\n// Afterwards, running \"sbt generateSources\" regenerates this source file.\n\npackage scala\n\n\n/** `Unit` is a subtype of [[scala.AnyVal]]. There is only one value of type\n *  `Unit`, `()`, and it is not represented by any object in the underlying\n *  runtime system. A method with return type `Unit` is analogous to a Java\n *  method which is declared `void`.\n */\nfinal abstract class Unit private extends AnyVal {\n  // Provide a more specific return type for Scaladoc\n  override def getClass(): Class[Unit] \u003d ???\n}\n\n@scala.annotation.compileTimeOnly(\"`Unit` companion object is not allowed in source; instead, use `()` for the unit value\")\nobject Unit extends AnyValCompanion {\n\n  /** Transform a value type into a boxed reference type.\n   *\n   *  This method is not intended for use in source code.\n   *  The runtime representation of this value is platform specific.\n   *\n   *  @param  x   the Unit to be boxed\n   *  @return     a scala.runtime.BoxedUnit offering `x` as its underlying value.\n   */\n  def box(x: Unit): scala.runtime.BoxedUnit \u003d scala.runtime.BoxedUnit.UNIT\n\n  /** Transform a boxed type into a value type.  Note that this\n   *  method is not typesafe: it accepts any Object, but will throw\n   *  an exception if the argument is not a scala.runtime.BoxedUnit.\n   *\n   *  This method is not intended for use in source code.\n   *  The result of successfully unboxing a value is `()`.\n   *\n   *  @param  x   the scala.runtime.BoxedUnit to be unboxed.\n   *  @throws     ClassCastException  if the argument is not a scala.runtime.BoxedUnit\n   *  @return     the Unit value ()\n   */\n  def unbox(x: java.lang.Object): Unit \u003d x.asInstanceOf[scala.runtime.BoxedUnit]\n\n  /** The String representation of the scala.Unit companion object. */\n  override def toString \u003d \"object scala.Unit\"\n}\n\n"
+    }
+  }
+}
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 23: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Unit.scala
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:152)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:773)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:770)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:391)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:39)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 23: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Unit.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parse(URI.java:3181)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 23 more
+
+Aug 06, 2024 3:03:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/HP%20840%20G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar%21/scala/Unit.scala"
+    }
+  }
+}
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 23: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Unit.scala
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:152)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:773)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:770)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:410)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 23: jar:file:///C:/Users/HP 840 G5/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/Unit.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parse(URI.java:3181)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 23 more
+
+2024.08.06 03:05:09 INFO  running doctor check
+2024.08.06 03:05:09 INFO  java targets: functional-programming-with-scala_52168fea17-test, functional-programming-with-scala_52168fea17
+2024.08.06 03:05:09 INFO  compiling functional-programming-with-scala_52168fea17 (3 scala sources)
+2024.08.06 03:05:09 INFO  time: compiled functional-programming-with-scala_52168fea17 in 0.15s
+2024.08.06 03:05:09 INFO  compiling functional-programming-with-scala_52168fea17 (3 scala sources)
+2024.08.06 03:05:09 INFO  time: compiled functional-programming-with-scala_52168fea17 in 0.19s
+2024.08.06 03:05:12 INFO  time: indexed workspace in 2.32s
+2024.08.06 03:05:12 INFO  compiling functional-programming-with-scala_52168fea17 (3 scala sources)
+2024.08.06 03:05:12 INFO  time: compiled functional-programming-with-scala_52168fea17 in 0.13s
+2024.08.06 03:05:45 INFO  compiling functional-programming-with-scala_52168fea17 (2 scala sources)
+2024.08.06 03:05:45 INFO  time: compiled functional-programming-with-scala_52168fea17 in 0.33s
+2024.08.06 03:08:34 INFO  Shutting down server
+2024.08.06 03:08:34 INFO  shutting down Metals
+2024.08.06 03:08:35 INFO  Shut down connection with build server.
+2024.08.06 03:08:34 INFO  Exiting server
+2024.08.06 10:12:59 INFO  Started: Metals version 1.3.5 in folders 'D:\Uni\2y - 1st sem\Code\functional-programming-with-scala' for client Visual Studio Code 1.92.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@59480719]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@20d6da37]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@59480719]
+2024.08.06 10:13:00 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 10:13:01 INFO  Attempting to connect to the build server...
+2024.08.06 10:13:01 INFO  Running BSP server List(C:\Users\HP 840 G5\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\.scala-build\ide-launcher-options.json, --envs-file, D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\.scala-build\ide-envs.json, D:\Uni\2y - 1st sem\Code\functional-programming-with-scala)
+2024.08.06 10:13:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\.metals\bsp.trace.json or C:\Users\HP 840 G5\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.06 10:13:05 INFO  BSP server: Starting compilation server
+2024.08.06 10:13:13 INFO  time: Connected to build server in 11s
+2024.08.06 10:13:13 INFO  Connected to Build server: scala-cli v1.4.0
+2024.08.06 10:13:13 INFO  time: Imported build in 0.19s
+2024.08.06 10:13:13 INFO  running doctor check
+2024.08.06 10:13:13 INFO  java targets: functional-programming-with-scala_52168fea17-test, functional-programming-with-scala_52168fea17
+2024.08.06 10:13:19 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 10:13:20 INFO  time: indexed workspace in 7.57s
+2024.08.06 10:13:22 INFO  Cancelling compilation on scala-cli server
+2024.08.06 10:13:23 INFO  time: Imported build in 1.01s
+2024.08.06 10:13:23 INFO  running doctor check
+2024.08.06 10:13:23 INFO  java targets: functional-programming-with-scala_52168fea17-test, functional-programming-with-scala_52168fea17
+2024.08.06 10:13:28 INFO  time: indexed workspace in 3.68s
+Aug 06, 2024 10:13:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Aug 06, 2024 10:36:59 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.06 10:37:09 INFO  Shutting down server
+2024.08.06 10:37:09 INFO  shutting down Metals
+2024.08.06 10:37:09 INFO  Shut down connection with build server.
+2024.08.06 10:37:09 INFO  Exiting server
