@@ -6214,3 +6214,19 @@ INFO: Unsupported notification method: $/setTrace
 2024.08.06 10:37:09 INFO  shutting down Metals
 2024.08.06 10:37:09 INFO  Shut down connection with build server.
 2024.08.06 10:37:09 INFO  Exiting server
+2024.08.06 10:37:29 INFO  Started: Metals version 1.3.5 in folders 'D:\Uni\2y - 1st sem\Code\functional-programming-with-scala' for client Visual Studio Code 1.92.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@50f597e6]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@15174938]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@50f597e6]
+2024.08.06 10:37:31 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 10:37:32 INFO  Attempting to connect to the build server...
+2024.08.06 10:37:32 INFO  Running BSP server List(C:\Users\HP 840 G5\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\.scala-build\ide-launcher-options.json, --envs-file, D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\.scala-build\ide-envs.json, D:\Uni\2y - 1st sem\Code\functional-programming-with-scala)
+2024.08.06 10:37:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Uni\2y - 1st sem\Code\functional-programming-with-scala\.metals\bsp.trace.json or C:\Users\HP 840 G5\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.06 10:37:38 INFO  time: Connected to build server in 5.91s
+2024.08.06 10:37:38 INFO  Connected to Build server: scala-cli v1.4.0
+2024.08.06 10:37:38 INFO  running doctor check
+2024.08.06 10:37:38 INFO  java targets: functional-programming-with-scala_52168fea17-test, functional-programming-with-scala_52168fea17
+2024.08.06 10:37:43 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 10:37:43 INFO  time: indexed workspace in 6.26s
