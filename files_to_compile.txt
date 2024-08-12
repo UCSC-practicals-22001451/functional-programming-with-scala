@@ -1,4 +1,3 @@
-practical_7/filter_even_1.scala
-practical_7/calc_square_2.scala
-practical_7/filter_prime_3.scala
+practical_8/ceaser_cipher_1.scala
+practical_8/lambda_categorize_2.scala
 App.scala

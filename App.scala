@@ -8,10 +8,13 @@ object App {
         // case "p5e3" => practical_5.print_fib.run()
         // case "p6e1" => practical_6.warehouse_management.run()
         // case "p6e2" => practical_6.student_management.run()
-        case "p7e1" => practical_7.filterEvenNumbers.run()
-        case "p7e2" => practical_7.calculateSquare.run()
-        case "p7e3" => practical_7.filterPrime.run()
-        case _      => println("Exercise not found.")
+        // case "p7e1" => practical_7.filterEvenNumbers.run()
+        // case "p7e2" => practical_7.calculateSquare.run()
+        // case "p7e3" => practical_7.filterPrime.run()
+        // case "p2e1" => practical_2.ceaser_cipher_1.run()
+        // case "p2e2" => practical_2.lambda_categorize_2.run()
+        case "p8e1" => practical_8.ceaser_cipher_1.run()
+        case "p8e2" => practical_8.lambda_categorize_2.run()
       }
     } else {
       println("Please specify an exercise to run.")
