@@ -1,3 +1,4 @@
-practical_8/ceaser_cipher_1.scala
-practical_8/lambda_categorize_2.scala
+practical_9/calc_interest_1.scala
+practical_9/pattern_matcher_2.scala
+practical_9/formatter_3.scala
 App.scala

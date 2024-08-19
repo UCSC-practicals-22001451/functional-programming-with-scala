@@ -1,3 +1,4 @@
 9
-ceaser_cipher_1
-lambda_categorize_2
+calc_interest_1
+pattern_matcher_2
+formatter_3
