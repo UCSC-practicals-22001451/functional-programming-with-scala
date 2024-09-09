@@ -20,7 +20,7 @@ object App {
         //case "p9e3" => practical_9.formatter_3.run();
         case "p10e1" => practical_10.rational_num_1.run();
         case "p10e2" => practical_10.bank_2.run();
-
+        case "p10e3" => practical_10.count_letter_occurrences_3.run();
       }
     } else {
       println("Please specify an exercise to run.")

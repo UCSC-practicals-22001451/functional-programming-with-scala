@@ -1,3 +1,4 @@
 practical_10/bank_2.scala
 practical_10/rational_num_1.scala
+practical_10/count_letter_occurrences_3.scala
 App.scala
