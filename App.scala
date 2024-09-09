@@ -15,10 +15,11 @@ object App {
         // case "p2e2" => practical_2.lambda_categorize_2.run()
         // case "p8e1" => practical_8.ceaser_cipher_1.run()
         // case "p8e2" => practical_8.lambda_categorize_2.run()
-        case "p9e1" => practical_9.interest_1.run()
-        case "p9e2" => practical_9.pattern_matcher_2.run()
-        case "p9e3" => practical_9.formatter_3.run();
-        case _      => println("Exercise not found.");
+        //case "p9e1" => practical_9.interest_1.run()
+        //case "p9e2" => practical_9.pattern_matcher_2.run()
+        //case "p9e3" => practical_9.formatter_3.run();
+        case "p10e1" => practical_10.rational_num_1.run();
+        case "p10e2" => practical_10.bank_2.run();
 
       }
     } else {

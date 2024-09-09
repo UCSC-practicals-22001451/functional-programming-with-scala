@@ -1,4 +1,3 @@
-practical_9/calc_interest_1.scala
-practical_9/pattern_matcher_2.scala
-practical_9/formatter_3.scala
+practical_10/bank_2.scala
+practical_10/rational_num_1.scala
 App.scala
